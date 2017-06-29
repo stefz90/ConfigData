@@ -8,14 +8,14 @@ spring:
   profiles: sentences
 server:
   port: 8020
-word: NotImplemented
+words: NotImplemented
 
 ---
 spring:
   profiles: subject
-word: I,He,She
+words: I,He,She
 
 ---
 spring:
   profiles: verb
-word: eat,sleep,drink
+words: eat,sleep,drink
