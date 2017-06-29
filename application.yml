@@ -2,3 +2,20 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8010/eureka/
+      
+---
+spring:
+  profiles: sentences
+server:
+  port: 8020
+word: NotImplemented
+
+---
+spring:
+  profiles: subject
+word: I,He,She
+
+---
+spring:
+  profiles: verb
+word: eat,sleep,drink
