@@ -1,5 +1,5 @@
 # .yml file
-
-label: Hello-world
-version: 1.0.0
-lucky-word: Irish
+---
+wordConfig:
+  lucky-word: Irish
+  preamble: The lucky word is
