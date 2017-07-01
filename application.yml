@@ -19,3 +19,18 @@ words: I,He,She
 spring:
   profiles: verb
 words: eat,sleep,drink
+
+---
+spring:
+  profiles: article
+words: a,an
+
+---
+spring:
+  profiles: adjective
+words: happy,sad,big
+
+---
+spring:
+  profiles: noun
+words: milo,bed,food
